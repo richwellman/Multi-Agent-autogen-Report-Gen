@@ -1,7 +1,8 @@
 # Analytics and Reporting using autogen
 
 ## Overview
-This project leverages autogen multi agent framework along with Azure OpenAI Assistants API to automate data analysis and report generation. It uses multiple agents to process data, generate insights, and compile a final report document.
+This project leverages autogen multi agent framework along with Azure OpenAI Assistants API to automate data analysis and report generation. It uses multiple agents to process data, generate insights, and compile a final report document. 
+I have discussed the design, approach in this post [here](https://techcommunity.microsoft.com/blog/azure-ai-services-blog/autogen--openai-assistants-api-powered-collaborative-report-generation/4371174)
 
 
 ## Key Components
