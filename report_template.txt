@@ -1,0 +1,79 @@
+# Template for Monthly Business Insights Report
+
+## Metadata Section
+
+### Fields to Populate
+- **Title**: `$ReportTitle` = "Vanarsdel Monthly Business Insights Report for {MonthOfReporting}"
+- **Prepared By**: `$PreparedBy` = "<Provide persona name>"
+- **Report Date**: `$ReportDate` = "[Set the $CurrentSystemDate here]"
+
+### Instructions for Metadata Completion
+- Populate the following metadata fields at the beginning of the Microsoft Office Word Document (.docx):
+  - Title: `$ReportTitle`
+  - Prepared By: `$PreparedBy` with collaboration with the other $Agents
+  - Report Date: `$ReportDate`
+- Ensure these fields are formatted prominently in the document:
+  - Title should appear at the top in bold, larger font size.
+  - "Prepared By" and "Report Date" should be italicized and placed below the title.
+
+## Document Sections
+
+### 1. Total Product Sales Performance by Category
+- **Overview**:
+  - $SectionSummary_TopSalesByCategory
+  - Ensure insights go beyond the obvious, are insightful, and are formatted for comprehension.
+
+- **Data Table**:
+  - Top 5 Categories by Total Sales Revenue
+| Category       | Revenue    |
+|----------------|------------|
+| Category 1     | $[Revenue] |
+| Category 2     | $[Revenue] |
+| Category 3     | $[Revenue] |
+| Category 4     | $[Revenue] |
+| Category 5     | $[Revenue] |
+
+- **Bar Chart**:
+    Top 5 Categories by Total Sales Revenue (`TotalSalesByCategoryChart')
+
+### 2. Total Product Sales by Category comparison for {MonthOfReporting} and the $PreviousMonth
+- **Overview**:
+  - $SectionSummary_TotalSalesRevenueByCategoryComparison
+  - Business Insights comparing Total Sales Revenue by Category for {MonthOfReporting} and $PreviousMonth. 
+
+- **Data Table**:
+    -  Comparison of the Total Product Sales by Category for {MonthOfReporting} and the $PreviousMonth
+
+| Category   | Total Revenue for {MonthOfReporting}  |Total Revenue for $PreviousMonth  |
+|------------|----------|------------|
+| Category 1 | $[Revenue] | $[Revenue] |
+| Category 2 | $[Revenue] | $[Revenue] |
+| Category 3 | $[Revenue] | $[Revenue] |
+| Category 4 | $[Revenue] | $[Revenue] |
+| Category 5 | $[Revenue] | $[Revenue] |
+
+### 3. Product Performance by Zip code
+- **Overview**:
+  - $SectionSummary_TotalSalesRevenueByZipCode
+  - Highlight top-performing zip codes for $month_for_reporting.
+
+- **Data Table**:
+    - Top 5 Zip Codes by Revenue for $month_for_reporting:
+
+| Zip Code | Revenue    |
+|----------|------------|
+| [Zip Code] | $[Revenue] |
+| [Zip Code] | $[Revenue] |
+| [Zip Code] | $[Revenue] |
+| [Zip Code] | $[Revenue] |
+| [Zip Code] | $[Revenue] |
+
+- **Pie Chart**:
+    - Generate a Pie chart showing top sales performance by zip codes
+
+### 4. Overall Summary & Conclusion
+- **Overview**:
+  - Provide a consolidated executive summary synthesizing insights from all subsections above.
+  - The summary should avoid repetition and provide a nuanced, overarching perspective.
+  - Add the executive summary to the Report Document
+  - Format this content to ensure ease of readability.
